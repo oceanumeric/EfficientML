@@ -24,6 +24,12 @@ basewebsite: /EfficientML
 ### let's use the minima theme (see https://github.com/jekyll/minima)
 theme: minima
 
+# this is very important as it keeps the image path
+# consistent, you can change it but make sure you always
+# have three '/' within it 
+# aslo, normally, one should not include any markdown
+# within folder starts with underscore, such as _posts
+# i just put it there for simplicity
 permalink: /:categories/:year/:title:output_ext
 
 
