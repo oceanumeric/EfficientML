@@ -24,6 +24,8 @@ basewebsite: /EfficientML
 ### let's use the minima theme (see https://github.com/jekyll/minima)
 theme: minima
 
+permalink: none
+
 
 
 # math engine with katex in case you want to do complex configuration
