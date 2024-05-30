@@ -20,7 +20,7 @@ description: >
 ### let's use the minima theme (see https://github.com/jekyll/minima)
 theme: minima
 
-baseurl: /EfficientML
+baseurl: /EfficientML/
 
 # math engine with katex in case you want to do complex configuration
 # kramdown:
