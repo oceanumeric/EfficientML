@@ -1,0 +1,190 @@
+<head>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Vollkorn:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
+
+    <style>
+      body {
+        background-color: #fffff8;
+        font-family: 'Vollkorn', serif;
+        font-optical-sizing: auto;
+        font-size: 19px;
+      }
+      article {
+        width: 90%;
+        margin: 0 auto;
+      }
+        .footer-col-wrapper {
+          display: flex;
+        }
+    
+        .footer-col {
+          flex: 1;
+          padding: 0 10px; /* Adjust spacing as needed */
+        }
+
+        a {
+          color: #000;
+        }
+
+        /* change a color from blue to black */
+        a:visited {
+          color: #000;
+        }
+        .site-title {
+          font-size: small;
+        }
+
+        .page-link {
+          font-size: small;
+        }
+
+        .code {
+          font-size: 13px;
+        }
+
+        p > .highlighter-rouge {
+          background-color: #eeeeff87;
+        }
+
+        li > .highlighter-rouge {
+          background-color: #eeeeff87;
+        }
+
+        pre, code {
+          background-color: #fffff8;
+        }
+
+        .highlighter-rouge .highlight {
+          background: #fffff8;
+        }
+        .firstcharacter {
+          color: #903;
+          float: left;
+          font-family: Georgia;
+          font-size: 70px;
+          line-height: 40px;
+          padding-top: 4px;
+          padding-right: 8px;
+          padding-left: 3px;
+        }
+        .reflection{
+          color: #1c7ed6;
+        }
+        .emphasis {
+          color: #903;
+        }
+        .exploration {
+          color: #36b24d;
+        }
+        .u-email {
+          color: #000;
+        }
+
+        blockquote {
+          /* add a border with dashed line and make it like a math theorem box */
+          border: 1.5px dashed #000;
+          border-color: #a2a0a0;
+          border-radius: 6px;
+          /* padding left right 16px and top bottom 6px */
+          padding: 6px 16px;
+          color: #000;
+          font-style: normal;
+        }
+
+        p > a {
+          color: #a00000 !important;
+          text-decoration: underline !important;
+        }
+      </style>
+    
+      <!-- <script type="text/javascript">
+        var codeBlocks = document.querySelectorAll('div.highlight');
+      
+        codeBlocks.forEach(function (codeBlock) {
+          var copyButton = document.createElement('button');
+          copyButton.className = 'copy-button';
+          copyButton.type = 'button';
+          copyButton.ariaLabel = 'Copy code to clipboard';
+          copyButton.innerText = "copy";
+      
+          codeBlock.prepend(copyButton);
+          copyButton.addEventListener('click', function () {
+            var code = codeBlock.querySelector('code').innerText.trim();
+            window.navigator.clipboard.writeText(code);
+      
+            copyButton.innerText = 'Copied';
+            var fourSeconds = 1000;
+      
+            setTimeout(function () {
+              copyButton.innerText = 'Copy';
+            }, fourSeconds);
+          });
+        });
+      </script>
+
+      <style>
+        .copy-button {
+          position: absolute;
+          opacity: 0;
+          margin-left: 46%;
+          margin-top: 1px;
+        }
+
+        @media (min-width: 1200px) {
+          .copy-button {
+              margin-left: 43%;
+          }
+        }
+
+        @media (max-width: 768px) {
+            .copy-button {
+                margin-left: 80%;
+            }
+        }
+        
+        .highlight:hover > .copy-button {
+          opacity: 1;
+        }
+        
+        .highlight > .copy-button:active {
+          opacity: 1;
+        }
+      </style> -->
+</head>
+<footer class="site-footer h-card">
+    <data class="u-url" href="{{ "/" | relative_url }}"></data>
+  
+    <div class="wrapper">
+      <div class="footer-col-wrapper">
+        <div class="footer-col">
+        {%- if site.author %}
+          <ul class="contact-list">
+            {% if site.author.name -%}
+              <li class="p-name">{{ site.author.name | escape }}</li>
+            {% endif -%}
+            {% if site.author.github -%}
+              <li><a class="u-url" href="{{ site.author.github }}" target="_blank">🧑🏻‍💻 {{ site.author.github }}</a></li>
+            {%- endif %}
+            {% if site.author.email -%}
+              <li><a class="u-email" href="mailto:{{ site.author.email }}">📮 {{ site.author.email }}</a></li>
+            {%- endif %}
+            {% if site.author.website -%}
+              <li><a class="u-email" href="{{ site.author.website }}" target="_blank">𝍌 {{ site.author.website }}</a></li>
+            {%- endif %}
+            {% if site.author.youtube -%}
+              <li><a class="u-email" href="{{ site.author.youtube }}" target="_blank">🎯 {{ site.author.youtube }}</a></li>
+            {%- endif %}
+          </ul>
+        {%- endif %}
+        </div>
+        <div class="footer-col">
+          <p>{{ site.description | escape }}</p>
+        </div>
+      </div>
+    </div>
+  
+  </footer>
+
+
+  

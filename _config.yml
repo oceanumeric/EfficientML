@@ -1,0 +1,37 @@
+### your site title here
+title: Efficient ML
+author:
+  name: Michael 王云斐
+  email: numerical.ocean@gmail.com
+  website: https://oceanumeric.github.io
+  youtube: https://www.youtube.com/@innolab2698
+  github: http://github.com/oceanumeric/EfficientML
+
+
+# The `>` after `description:` means to ignore line-breaks until next key.
+# If you want to omit the line-break after the end of text, use `>-` instead.
+description: >
+  This website and repository provide best practices for efficient 
+  machine learning algorithms and systems. It aims to help users 
+  understand ML/DL/NLP algorithms, train models, fine-tune LLMs, and deploy them 
+  in production using MLOps (mainly Ray, ONNX, and FastAPI stack).
+
+
+### let's use the minima theme (see https://github.com/jekyll/minima)
+theme: minima
+
+baseurl: /EfficientML
+
+# math engine with katex in case you want to do complex configuration
+# kramdown:
+#   math_engine: katex
+
+# plugins:
+#   - jekyll-relative-links
+
+
+### exclude the instructions / write-up in the README.md
+
+exclude:
+- README.md
+- readme.md
