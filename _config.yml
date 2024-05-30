@@ -17,8 +17,8 @@ description: >
   in production using MLOps (mainly Ray, ONNX, and FastAPI stack).
 
 # url: https://oceanumeric.github.io
-# baseurl: /EfficientML
-# basewebsite: /EfficientML
+baseurl: /EfficientML
+basewebsite: /EfficientML
 
 
 ### let's use the minima theme (see https://github.com/jekyll/minima)
