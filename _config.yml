@@ -16,7 +16,7 @@ description: >
   understand ML/DL/NLP algorithms, train models, fine-tune LLMs, and deploy them 
   in production using MLOps (mainly Ray, ONNX, and FastAPI stack).
 
-# url: https://oceanumeric.github.io
+url: https://oceanumeric.github.io
 baseurl: /EfficientML
 basewebsite: /EfficientML
 
