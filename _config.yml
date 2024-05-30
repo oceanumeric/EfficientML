@@ -16,11 +16,13 @@ description: >
   understand ML/DL/NLP algorithms, train models, fine-tune LLMs, and deploy them 
   in production using MLOps (mainly Ray, ONNX, and FastAPI stack).
 
+baseurl: /EfficientML
+
 
 ### let's use the minima theme (see https://github.com/jekyll/minima)
 theme: minima
 
-baseurl: /EfficientML/
+
 
 # math engine with katex in case you want to do complex configuration
 # kramdown:
